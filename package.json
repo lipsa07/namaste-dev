@@ -1,0 +1,26 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is react App",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipsa07/namaste-dev.git"
+  },
+  "keywords": [
+    "react",
+    "namaste"
+  ],
+  "author": "Admin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lipsa07/namaste-dev/issues"
+  },
+  "homepage": "https://github.com/lipsa07/namaste-dev#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

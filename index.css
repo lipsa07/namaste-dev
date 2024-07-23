@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.logo > img {
+    width: 150px;
+    height: 120px;
+}
+.nav-items > ul{
+    display: flex;
+    font-size: 22px;
+    list-style: none;
+}
+.nav-items > ul > li{
+    padding: 5px;
+    margin: 10px;
+}
+.resturant-card{
+    width: 180px;
+    height: 250px;
+    background-color:rgb(231, 231, 231);
+    margin: 10px;
+    padding: 5px;
+}
+.resturant-card > img {
+    width: 180px;
+    height: 100px;
+}
+.resturant-card:hover{
+    cursor: pointer;    
+    border: 1px solid;
+}
+.resturant-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.filter{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.filter-btn, .search-btn{
+   margin-left: 10px;
+}
+.search{
+    padding: 10px;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.shimmer-card{
+    width: 180px;
+    height: 250px;
+    background-color:rgb(231, 231, 231);
+    margin: 10px;
+    padding: 5px;
+}
+.login-btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(65, 127, 209);
+    width: 100px;
+    height: 30px;
+}
